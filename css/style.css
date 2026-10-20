@@ -15,23 +15,86 @@ header {
   padding: 20px 8%;
   border-bottom: 1px solid #e5e7eb;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 16px;
+  padding: 18px 8%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-nav a {
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 0;
+  text-decoration: none;
+  color: #172033;
+}
+
+.logo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+nav .logo:hover .logo-icon {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.logo-text strong {
+  font-size: 20px;
+}
+
+.logo-text small {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #64748b;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 12px;
+  margin-left: 0;
+  border-radius: 8px;
   color: #172033;
   text-decoration: none;
-  margin-left: 18px;
   font-weight: bold;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
 }
 
-nav a:hover {
+nav ul li a:hover {
+  background-color: #eff6ff;
   color: #2563eb;
 }
 
