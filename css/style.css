@@ -162,3 +162,68 @@ footer {
   letter-spacing: 1px;
   color: #64748b;
 }
+
+#home {
+  padding: 80px 8%;
+  background: linear-gradient(135deg, #eff6ff, #ffffff);
+  border-radius: 16px;
+}
+
+.hero-greeting {
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+
+#home h1 {
+  color: #172033;
+  font-size: 44px;
+  line-height: 1.25;
+  margin-bottom: 24px;
+}
+
+.hero-highlight {
+  color: #2563eb;
+}
+
+.hero-description {
+  color: #475569;
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.hero-buttons .button {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 2px solid #2563eb;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.hero-buttons .button:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.hero-buttons .button-outline {
+  background-color: transparent;
+  color: #2563eb;
+}
+
+.hero-buttons .button-outline:hover {
+  background-color: #dbeafe;
+}
