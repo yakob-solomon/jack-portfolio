@@ -164,7 +164,7 @@ footer {
 }
 
 #home {
-  padding: 80px 8%;
+  padding: 60px 20px;
   background: linear-gradient(135deg, #eff6ff, #ffffff);
   border-radius: 16px;
 }
@@ -189,9 +189,7 @@ footer {
 }
 
 .hero-description {
-  color: #475569;
-  line-height: 1.8;
-  margin-bottom: 28px;
+  max-width: 600px;
 }
 
 .hero-buttons {
@@ -237,7 +235,6 @@ footer {
   font-weight: bold;
   margin-bottom: 16px;
 }
-/* Day 5: Improve typography and readability */
 h1,
 h2 {
   letter-spacing: -0.5px;
@@ -250,4 +247,25 @@ h2 {
 
 p {
   line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  #home h1 {
+    font-size: 32px;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+  }
 }
