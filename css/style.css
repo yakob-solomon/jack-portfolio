@@ -207,14 +207,15 @@ footer {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
-  transition:
-    background-color 0.2s,
-    color 0.2s;
+  transition: all 0.3s ease;
+} all 0.3s ease;
 }
 
 .hero-buttons .button:hover {
   background-color: #1d4ed8;
   border-color: #1d4ed8;
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
 
 .hero-buttons .button-outline {
