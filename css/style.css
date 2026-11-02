@@ -270,3 +270,22 @@ p {
     flex-wrap: wrap;
   }
 }
+#about-preview {
+  padding: 60px 8%;
+  margin: 30px 8%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+#about-preview h2 {
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+#about-preview p {
+  max-width: 650px;
+  margin: 12px auto;
+  color: #475569;
+}
