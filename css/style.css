@@ -250,25 +250,19 @@ p {
   line-height: 1.8;
 }
 
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    gap: 16px;
-  }
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 0;
+    }
 
-  nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 16px;
-  }
-
-  #home h1 {
-    font-size: 32px;
-  }
-
-  .hero-buttons {
-    flex-wrap: wrap;
-  }
+    nav ul li a {
+        font-size: 13px;
+        white-space: nowrap;
+    }
 }
 #about-preview {
   padding: 60px 8%;
